@@ -24,4 +24,19 @@ public class Users {
 	
 	@Column(name="salary")
 	private float salary;
+
+	public Users() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Users(int userId, String name, int age, float salary) {
+		super();
+		this.userId = userId;
+		this.name = name;
+		this.age = age;
+		this.salary = salary;
+	}
+	
+	
 }
