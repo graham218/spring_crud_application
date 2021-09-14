@@ -69,6 +69,12 @@ public class Users {
 	public void setSalary(float salary) {
 		this.salary = salary;
 	}
+
+	@Override
+	public String toString() {
+		return "Users [userId=" + userId + ", name=" + name + ", age=" + age + ", salary=" + salary + "]";
+	}
+	
 	
 	
 }
