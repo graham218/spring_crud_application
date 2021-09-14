@@ -8,5 +8,5 @@ public interface UserService {
 
 	public List<Users> getAllUsers();
 	public Users getUserById(int userId);
-	
+	public Users addOrUpdateUser(Users user);
 }
