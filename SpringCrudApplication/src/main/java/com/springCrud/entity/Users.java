@@ -21,4 +21,7 @@ public class Users {
 	
 	@Column(name="age")
 	private int age;
+	
+	@Column(name="salary")
+	private float salary;
 }
